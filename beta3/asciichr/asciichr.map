@@ -1,0 +1,20 @@
+text size :     67(0x00043)
+data size :      0(0x00000)
+bss  size :      0(0x00000)
+
+0x00000024 : (.text)
+0x00000024 : _HariMain
+0x0000004B : _api_putchar
+0x0000004B : (.text)
+0x00000057 : _api_end
+0x00000057 : (.text)
+0x0000005E : (.text)
+0x0000005E : _HariStartup
+0x00000000 : (.data)
+0x00000000 : (.data)
+0x00000000 : (.data)
+0x00000000 : (.data)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)

@@ -1,0 +1,28 @@
+     1 00000000                                 [FORMAT "WCOFF"]
+     2 00000000                                 [INSTRSET "i486p"]
+     3 00000000                                 [OPTIMIZE 1]
+     4 00000000                                 [OPTION 1]
+     5 00000000                                 [BITS 32]
+     6 00000000                                 	EXTERN	_api_putchar
+     7 00000000                                 	EXTERN	_api_end
+     8 00000000                                 [FILE "asciichr.c"]
+     9                                          [SECTION .text]
+    10 00000000                                 	GLOBAL	_HariMain
+    11 00000000                                 _HariMain:
+    12 00000000 55                              	PUSH	EBP
+    13 00000001 89 E5                           	MOV	EBP,ESP
+    14 00000003 53                              	PUSH	EBX
+    15 00000004 31 DB                           	XOR	EBX,EBX
+    16 00000006                                 L6:
+    17 00000006 53                              	PUSH	EBX
+    18 00000007 43                              	INC	EBX
+    19 00000008 E8 [00000000]                   	CALL	_api_putchar
+    20 0000000D 81 FB 000000FF                  	CMP	EBX,255
+    21 00000013 5A                              	POP	EDX
+    22 00000014 7E F0                           	JLE	L6
+    23 00000016 6A 0A                           	PUSH	10
+    24 00000018 E8 [00000000]                   	CALL	_api_putchar
+    25 0000001D 8B 5D FC                        	MOV	EBX,DWORD [-4+EBP]
+    26 00000020 58                              	POP	EAX
+    27 00000021 C9                              	LEAVE
+    28 00000022 E9 [00000000]                   	JMP	_api_end

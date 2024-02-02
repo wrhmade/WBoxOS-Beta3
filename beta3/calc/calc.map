@@ -1,0 +1,46 @@
+text size :   2636(0x00A4C)
+data size :     80(0x00050)
+bss  size :      0(0x00000)
+
+0x00000000 : (.text)
+0x00000024 : (.text)
+0x00000024 : _HariMain
+0x0000009A : _skipspace
+0x000000AF : _getnum
+0x00000487 : _api_putstr0
+0x00000487 : (.text)
+0x00000495 : _api_end
+0x00000495 : (.text)
+0x0000049C : _api_cmdline
+0x0000049C : (.text)
+0x000004AE : (.text)
+0x000004AE : _HariStartup
+0x000004B7 : _sprintf
+0x000004B7 : (.text)
+0x000004CB : _strtol
+0x000004CB : (.text)
+0x000005A7 : (.text)
+0x000005E3 : _strtoul0
+0x000006B6 : (.text)
+0x000006DE : _vsprintf
+0x00000000 : (.data)
+0x00000000 : (.data)
+0x00000000 : (.data)
+0x00000000 : (.data)
+0x00000000 : (.data)
+0x00000000 : (.data)
+0x00000000 : (.data)
+0x00001000 : (.data)
+0x0000102C : (.data)
+0x0000102C : _errno
+0x00001030 : (.data)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
+0x00000000 : (.bss)
